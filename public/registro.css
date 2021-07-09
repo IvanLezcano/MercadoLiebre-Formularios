@@ -1,0 +1,276 @@
+label{
+    font-weight: bolder;
+   
+}
+.horizonte label{
+    font-weight: lighter;
+    width: 100% !important;
+}
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    background-color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+label{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+
+
+}
+.radio{
+    flex-direction: row;
+}
+.completatusdatos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.enviarboton{
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+.par{
+    display: flex;
+    flex-direction: column;
+}
+.intereses{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    font-size: 1rem;
+
+}
+.horizonte{
+    
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+
+}
+.horizonte label{
+    width: 100%;
+}
+.radio{
+    font-size: 1rem;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.formulario{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+@media  (min-width: 768px){
+   
+    .completatusdatos h4{
+        margin: 0 !important;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    .completatusdatos{
+    
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        margin-top: 20px;
+
+    }
+    .par{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .par label{
+        width: 20%;
+        font-size: 0.8rem;
+
+    }
+    .par input{
+        width: 40%;
+        margin-right: 5px;
+        height: 40px !important;
+    }
+    .intereses{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        display: flex;
+        font-size: 1rem;
+
+    }
+    .horizonte{
+        
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+     
+    
+    }
+    .horizonte input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 20px !important;
+
+    }
+    .horizonte label{
+        width: 100%;
+    }
+    .radio{
+        font-size: 1rem;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+    .radio label{
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .intereses label{
+        width: 50%;
+    }
+    form{
+        padding: 20px;
+    }
+    .enviarboton{
+        font-size: 2rem;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;}
+        .labelgrande{
+            font-size: 1rem !important;
+        }
+
+}
+
+@media  (min-width: 1024px){
+    .completatusdatos h4{
+        margin: 0 !important;
+        padding: 40px;
+        font-size: 2rem;
+    }
+    .completatusdatos{
+    
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        margin-top: 30px;
+
+    }
+    .par{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .par label{
+        width: 20%;
+        font-size: 1rem;
+
+    }
+    .par input{
+        width: 50%;
+        margin-right: 5px;
+        height: 40px !important;
+    }
+    .intereses{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        display: flex;
+        font-size: 1rem;
+
+    }
+    .horizonte{
+        
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+     
+    
+    }
+    .horizonte input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 20px !important;
+
+    }
+    .horizonte label{
+        width: 100%;
+    }
+    .radio{
+        font-size: 1rem;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+    .radio label{
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .intereses label{
+        width: 50%;
+    }
+    form{
+        padding: 50px;
+    }
+    .enviarboton{
+        font-size: 2rem;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100%;
+    }
+        .labelgrande{
+            font-size: 2rem !important;
+        }
+        .formulario{
+            margin-bottom: 20px;
+        }
+}
